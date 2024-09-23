@@ -1,0 +1,23 @@
+.container {
+    height: 100%;
+    width: 100%;
+
+    :global {
+        .icon {
+            display: flex;
+            align-items: center;
+            padding: 1rem;
+            gap: 5px;
+
+            img {
+                height: 40px;
+                width: 40px;
+            }
+
+            span {
+                font-size: 2rem;
+                font-weight: 700;
+            }
+        }
+    }
+}
