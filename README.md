@@ -4,6 +4,9 @@
 
 本项目是一个基于React的前端项目，用于重构云盘。项目使用了React框架，并使用了`MDUI`库来构建界面。项目还使用了Redux来管理应用的状态，并使用了Axios来进行网络请求。
 
+![项目截图](/assets/1.png)
+![项目截图](/assets/2.png)
+
 ## 功能介绍
 
 本项目实现了以下功能：
@@ -17,3 +20,14 @@
 ## 技术栈
 
 本项目使用了以下技术栈：
+- React
+- Vite + TypeScript
+- React-router-dom
+- Axios
+- MDUI
+
+## 如何运行
+
+1. 克隆项目到本地
+2. 在项目根目录下运行`npm install`安装依赖
+3. 在项目根目录下运行`npm start`启动项目
