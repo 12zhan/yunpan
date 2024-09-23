@@ -1,50 +1,19 @@
-# React + TypeScript + Vite
+# React重构云盘
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 项目介绍
 
-Currently, two official plugins are available:
+本项目是一个基于React的前端项目，用于重构云盘。项目使用了React框架，并使用了`MDUI`库来构建界面。项目还使用了Redux来管理应用的状态，并使用了Axios来进行网络请求。
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 功能介绍
 
-## Expanding the ESLint configuration
+本项目实现了以下功能：
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+1. 用户登录和注册
+2. 文件上传和下载
+3. 文件管理（包括文件重命名、删除、移动等操作）
+4. 文件搜索
+5. 文件预览（包括图片、PDF、文本等文件）
 
-- Configure the top-level `parserOptions` property like this:
+## 技术栈
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+本项目使用了以下技术栈：
